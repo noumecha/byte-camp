@@ -1,4 +1,7 @@
+e = document.getElementById("first");
 let t = document.getElementById('home')
-console.log(t.attributes);
 //t.innerHTML = '<span>Texte avec HTML</span>';
 t.textContent = "Welcome Home!";
+d = document.createElement('p');
+d.textContent = 'I am noumecha Spaker and i like eating and programming';
+e.appendChild(d);
