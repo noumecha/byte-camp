@@ -8,4 +8,7 @@ e.appendChild(d);
 
 // Working with node :
 block = document.getElementById('present');
-console.log(block.attribues);
+console.log(block.attributes);
+console.log("baseURI : " + block.baseURI);
+console.log("Name : " + block.nodeName);
+console.log("Parent : " + block.parentNode);
