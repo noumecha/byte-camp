@@ -5,3 +5,7 @@ t.textContent = "Welcome Home!";
 d = document.createElement('p');
 d.textContent = 'I am noumecha Spaker and i like eating and programming';
 e.appendChild(d);
+
+// Working with node :
+block = document.getElementById('present');
+console.log(block.attribues);
