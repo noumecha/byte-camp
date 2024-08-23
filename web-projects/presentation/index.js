@@ -12,3 +12,5 @@ console.log(block.attributes);
 console.log("baseURI : " + block.baseURI);
 console.log("Name : " + block.nodeName);
 console.log("Parent : " + block.parentNode);
+block.classList.add("bg-color-text");
+//block.setAttribute("class", " bg-color-text");
