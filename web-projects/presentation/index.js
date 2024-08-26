@@ -14,3 +14,15 @@ console.log("Name : " + block.nodeName);
 console.log("Parent : " + block.parentNode);
 block.classList.add("bg-color-text");
 //block.setAttribute("class", " bg-color-text");
+
+// working with the browser
+console.log(`
+is closed : ${closed} \n  
+name : ${window.name} \n  
+screen : ${window.screen.pixelDepth} \n  
+parent : ${window.parent} \n  
+document : ${window.document} \n   
+Height : ${window.innerHeight} \n   
+Width : ${window.innerWidth} \n   
+navigator : ${window.navigator} \n   
+`);
