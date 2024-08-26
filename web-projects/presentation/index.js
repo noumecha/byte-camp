@@ -26,3 +26,7 @@ Height : ${window.innerHeight} \n
 Width : ${window.innerWidth} \n   
 navigator : ${window.navigator} \n   
 `);
+// images 
+let img = document.getElementById('my-image')
+img.innerHTML = "Test";
+console.log(`${JSON.stringify(img.innerHTML)}`)
