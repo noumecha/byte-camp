@@ -30,3 +30,14 @@ navigator : ${window.navigator} \n
 let img = document.getElementById('my-image')
 img.innerHTML = "Test";
 console.log(`${JSON.stringify(img.innerHTML)}`)
+// events 
+btn = document.getElementById('link');
+btn.addEventListener('click', function test() {
+    console.log("Button clicked !");
+});
+/*btn.addEventListener('click', () => {
+    console.log("Button clicked !");
+});
+function test() {
+    console.log("Button clicked !");
+}*/
