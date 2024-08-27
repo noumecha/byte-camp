@@ -13,6 +13,13 @@ public class HelloWorld {
 		u1.userAge = 1>>4;
 		u1.userName = "Noumecha";
 		System.out.println("User u1 = { name = \""+ u1.userName + "\" ; age = "+ u1.userAge + " };");
+		// type converting
+		double a = 5.7;
+		long l = (long)a;
+		System.out.println(l);
+		// Array manipulation 
+		int[] notes = {2,4,5,7};
+		String cars[];
 	}
 
 }
