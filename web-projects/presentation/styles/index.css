@@ -12,7 +12,7 @@ body {
 }
 /** present style */
 .present {
-    display: flex;
+    /*display: flex;*/
     padding: 70px 50px;
     align-items: center;
     flex-direction: column;
@@ -30,7 +30,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 0
+    margin-top: 0;
     top: 0;
     margin-bottom: 28px;
     border: 1px solid red;
@@ -53,4 +53,18 @@ body {
     font-size: 18px;
     margin-top: 0;
     margin-bottom: 28px;
+}
+.btn {
+    padding : 10px 20px;
+    background-color : blue;
+    color : white;
+    border: 1px solid blue;
+}
+.btn:hover {
+    background-color: white;
+    color : blue;
+    cursor: pointer;
+}
+.error {
+    color: red;
 }

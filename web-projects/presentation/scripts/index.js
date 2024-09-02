@@ -41,3 +41,15 @@ btn.addEventListener('click', function test() {
 function test() {
     console.log("Button clicked !");
 }*/
+// toggle Element 
+block.style.display = 'none';
+//display = ;
+document.getElementById('display-btn').textContent = 'Show';
+document.getElementById('display-btn').addEventListener('click', function() {
+    if (block.style.display = 'none') {
+        block.style.display = 'flex';
+        display.textContent = 'Mask';
+    } else {
+        block.style.display = 'none';
+    }
+});
