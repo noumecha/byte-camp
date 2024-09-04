@@ -44,12 +44,14 @@ function test() {
 // toggle Element 
 block.style.display = 'none';
 //display = ;
-document.getElementById('display-btn').textContent = 'Show';
+b = document.getElementById('display-btn'); 
+b.textContent = 'Show';
 document.getElementById('display-btn').addEventListener('click', function() {
-    if (block.style.display = 'none') {
+    if (block.style.display === 'none') {
         block.style.display = 'flex';
-        display.textContent = 'Mask';
+        b.textContent = 'Mask';
     } else {
         block.style.display = 'none';
+        b.textContent = 'Show';
     }
 });
