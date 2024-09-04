@@ -19,6 +19,7 @@ public class Parite {
 			System.out.println("nombre pair");
 		else
 			System.out.println("nombre impair");
+		sc.close();
 	}
 
 }

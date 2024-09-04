@@ -1,5 +1,5 @@
 package helloworld;
-import helloworld.User;
+import helloworld.*;
 
 public class HelloWorld {
 
@@ -18,8 +18,16 @@ public class HelloWorld {
 		long l = (long)a;
 		System.out.println(l);
 		// Array manipulation 
-		int[] notes = {2,4,5,7};
-		String cars[];
+		//in t[] notes = {2,4,5,7};
+		//String cars[];
+		// Classes 
+		Etudiant e1 = new Etudiant();
+		e1.setNomE("Johnny");
+		e1.setPrenomE("Spaker");
+		e1.setFilliereE("GENIE INFORMATIQUE");
+		e1.setSpecialiteE("Cybersécurité");
+		e1.presentation();
+		
 	}
 
 }

@@ -1,3 +1,4 @@
+console.log("show form");
 function validateForm() {
     let n = document.getElementById('name');
     let p = document.createElement('surname');

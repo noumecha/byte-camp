@@ -4,6 +4,7 @@ public class User {
 
 	byte userAge;
 	String userName = new String();
+	String userSurname = new String();
 	
 	public User() {
 		// TODO Auto-generated constructor stub
