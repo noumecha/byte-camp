@@ -1,0 +1,42 @@
+
+/** footer css */
+.footer {
+    padding: 15px 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer__section {
+    position: relative;
+    display: flex;
+}
+
+.footer__section_title {
+    font-family: var(--title-ff);
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__section_block {
+    position: relative;
+    flex: 1;
+}
+.footer__section_block--rowing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__section_block_title {
+    position: relative;
+}
+.footer__section_block_description {
+    position: relative;
+}

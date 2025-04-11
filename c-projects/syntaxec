@@ -1,0 +1,19 @@
+[directives au preprocesseur]
+[declarations de variables externes]
+[fonctions secondaires]
+main()
+{
+    // declarations de variables internes
+    // instructions
+}
+
+type ma_fonction ( arguments )
+{
+    // declarations de variables internes
+    // instructions
+}
+
+// commentaire sur une ligne
+
+/* commentaire sur plusieurs ligne 
+pour mieux expliquer ce que fait mon code */
