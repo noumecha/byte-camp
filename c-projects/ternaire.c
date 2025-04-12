@@ -8,3 +8,5 @@ int main() {
     (age >= 0 && age < 21) ? printf("Vous etes mineur") : printf("Vous etes desormais majeur");
     return 7;
 }
+
+(conditions) ? /* action si condition vraie*/ : /* action si condition faux */;

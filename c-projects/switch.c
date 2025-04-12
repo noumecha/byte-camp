@@ -8,13 +8,6 @@ int main() {
     switch (n)
     {
     case 0:
-    case 1:
-    case 2:
-    case 3:
-    case 5:
-    case 6:
-    case 7:
-    case 8:
     case 9:
         printf("Résultat médiocre \n");
         break;
@@ -22,14 +15,9 @@ int main() {
     case 11:
         printf("Résultat passable \n");
         break;
-    case 12:
-    case 13:
-    case 14:
     case 15:
         printf("Résultat bien \n");
         break;
-    case 16:
-    case 17:
     case 18:
         printf("Résultat Très bien \n");
         break;
@@ -42,4 +30,21 @@ int main() {
         break;
     }
     return 0;
+}
+
+switch (variable) 
+{
+    case valeur1:
+        /* instruction pour valeur 1 */
+        break;
+    case valeur2:
+        /* instructions pour valeur 2 */
+        break;
+    ...
+    case valeurn:
+        /* instruction pour valeur n */
+        break;
+    default:
+        /* instruction par défaut */
+        break;
 }
