@@ -1,0 +1,11 @@
+import math
+a = int(input("entrez un nombre : "))
+b = int(input("entrez un autre nombre : "))
+print("resultat arithmétique de " , a , " et ", b)
+print("addition : ", a + b)
+print("soustraction : ", a - b)
+print("multiplication : ", a * b)
+print("division : ", a / b)
+print("division entière : ",a // b)
+print("modulo : ", a % b)
+print("puissance : ", a ** b)
